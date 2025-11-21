@@ -9,21 +9,145 @@
 
 </head>
 <body>
-    <header>
+    <header class="main-header p-[8px]">
         <div class="img-logo"></div>
-        <nav>
-            <a href="Home"></a>
-            <a href="Our Profile"></a>
-            <a href="Portfolio"></a>
-            <a href="Message Us"></a>
+        <nav class="flex">
+            <a class="border p-[4px] rounded" href="#home-page">Home</a>
+            <a class="border p-[4px] rounded" href="#our-profile-page">Our Profile</a>
+            <a class="border p-[4px] rounded" href="#portofolio-page">Portofolio</a>
+            <a class="border p-[4px] rounded" href="#message-us-page">Message Us</a>
         </nav>
     </header>
 
+    <hr />
+
     <main>
-        <section></section>
-        <h2 class=""></h2>
-        <p></p>
+        <section id="home-page" class="min-h-[500px] text-center content-center">
+            <h2 class="text-xl font-bold" id="welcome-speech">Welcome to our website</h2>
+            <div class="section-container">
+            <img src="./img/sb-homepage.jpg" alt="homepage-image">
+                <div class="text-container">
+                <h2 class="text-xl font-bold">SMART BRAIN CORPORATION</h2>
+                <p>“Evolution for a Better Future”</p>
+                <br>
+                <p>Perusahaan bioteknologi dan teknologi keamanan yang berfokus pada pengembangan inovasi generasi masa depan.</p>
+                <br>
+                <p class="mt-2">Smart Brain adalah korporasi global yang memimpin dalam riset regenerasi, peningkatan kemampuan manusia, serta teknologi taktikal. Dengan fasilitas riset berskala internasional, kami menyediakan solusi untuk menciptakan masa depan yang lebih kuat, cerdas, dan efisien.</p>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="our-profile-page" class="min-h-[500px] text-center content-center">
+            <h2 class="text-xl font-bold">About company</h2>
+            <p class="mt-2" id="about-comp-p">Smart Brain Corporation adalah perusahaan multinasional yang bergerak di bidang bioteknologi, keamanan, dan rekayasa taktis. Berdiri pada tahun 2000 di Tokyo, Smart Brain memiliki misi untuk memperkenalkan teknologi evolusi yang dapat meningkatkan kualitas hidup manusia.</p>
+            <div class="section-container">
+            <img src="./img/sb-profile.jpg" alt="our-profile-image">
+                <div class="text-container">
+                    <div class="vismis">
+                        <div class="visi">
+                        <p class="text-center">Visi</p>
+                        <p class="">Mewujudkan masa depan dengan teknologi evolusi yang aman, efisien, dan berkelanjutan bagi generasi berikutnya.</p>
+                        </div>
+                        <div>
+                        <p class="text-center misi">Misi</p>
+                        <ul class="list-disc pl-4">
+                            <li>Mengembangkan teknologi biologi dan taktis paling maju.</li>
+                            <li>Menciptakan solusi evolusi yang dapat membantu manusia menghadapi tantangan global.</li>
+                            <li>Melindungi masyarakat dari ancaman biologis modern.</li>
+                            <li>Mempercepat integrasi antara manusia dan teknologi.</li>
+                        </ul>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <div class="flex items-start justify-center mt-[50px]">
+                <div class="text-container w-[600px]">
+                <p class="text-center mb-2 font-bold">Bidang Operasional</p>
+                <ul>
+                    <li><strong>Bio-Engineering Division</strong> - Riset regenerasi dan peningkatan kemampuan biologis.</li>
+                    <li><strong>Tactical Equipment Division</strong> - Pengembangan perangkat taktis untuk agen lapangan.</li>
+                    <li><strong>Advanced Technology Lab</strong> - Desain dan pengembangan sistem transformasi generasi baru.</li>
+                    <li><strong>Security & Intelligence Department</strong> - Operasi perlindungan, analisis ancaman, dan dukungan misi.</li>
+                </ul>
+                </div>
+                <div>
+                <p class="font-bold mb-2 text-center">Struktur Eksekutif</p>
+                <img src="./img/sb-orgstructure.png" alt="struktur-org-image" id="img-structure">
+                </div>
+            </div>
+            
+           
+        </section>
+
+        <hr>
+        <section id="portofolio-page" class="min-h-[500px] text-center content-center">
+            <h2 class="text-xl font-bold">Our Portofolio</h2>
+            <p>SB System Tactical Gear</p>
+            <p>Perangkat transformasi generasi baru yang dirancang untuk meningkatkan kekuatan dan kecepatan operasional.</p>
+            <img src="./img/sb-portofolio.jpg" alt="portofolio-image">
+                <div class="flex">
+                    <div>
+                        <p>Faiz Gear (SB-555 System)</p>
+                        <ul>
+                            <li>Transforming Driver</li>
+                            <li>Photon Blood Stabilizer</li>
+                            <li>Faiz Phone</li>
+                            <li>Faiz Pointer, Shot, Edge</li>
+                        </ul>
+                        <p>Meningkatkan performa operasional pengguna hingga 300% dengan kestabilan tinggi.</p>
+                    </div>
+                    <div>
+                        <p>Kaixa Gear</p>
+                        <ul>
+                            <li>Kaixa Driver</li>
+                            <li>Kaixa Phone</li>
+                            <li>Kaixa Blaygun & Pointer</li>
+                        </ul>
+                        <p>Sistem performa tinggi dengan mode ofensif jarak dekat dan jarak jauh.</p>
+                    </div>
+                    <div>
+                        <p>Delta Gear</p>
+                        <ul>
+                            <li>Delta Driver</li>
+                            <li>Delta Mover</li>
+                        </ul>
+                        <p>Sistem fleksibel yang dapat digunakan oleh berbagai tingkat kompatibilitas.</p>
+                    </div>
+                </div>
+            </section>
+
+        <hr>
+
+        <section id="message-us-page" class="min-h-[500px] p-8">
+            <header>
+                <h2 class="text-xl font-bold">Message Us</h2>
+                <p class="mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, culpa.</p>
+            </header>
+            
+            <form>
+                <div class="mb-4">
+                    <label class="block mb-2" for="name">Name:</label>
+                    <input class="w-full p-2 border rounded" type="text" id="name" name="name" required />
+                </div>
+
+                <div class="mb-4">
+                    <label class="block mb-2" for="email">Email:</label>
+                    <input class="w-full p-2 border rounded" type="text" id="email" name="email" required />
+                </div>
+
+                <div class="mb-4">
+                    <label class="block mb-2" for="message">Message:</label>
+                    <textarea class="w-full p-2 border rounded" id="message" name="message" rows="5" required></textarea>
+                </div>
+
+                <button class="px-4 py-2 bg-blue-500 text-white rounded" type="button">Send Message</button>
+            </form>
+        </section>
     </main>
+
+    <hr />
 
     <footer>
         <span>@2025 Rizky</span>

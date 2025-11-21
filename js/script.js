@@ -1,4 +1,4 @@
-welcomeMessage();
+// welcomeMessage();
 
 
 function welcomeMessage(){
@@ -7,7 +7,7 @@ function welcomeMessage(){
         userName = "Guest";
     }
 
-    document.getElementById("").innerText = "welcome, " + userName + "!";
+    document.getElementById("welcome-speech").innerText = "welcome, " + userName + "!";
     console.log("welcome, " + userName + "!");
 }
 
