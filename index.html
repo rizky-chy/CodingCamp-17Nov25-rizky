@@ -9,9 +9,9 @@
 
 </head>
 <body>
-    <header class="main-header p-[8px]">
-        <div class="img-logo"></div>
-        <nav class="flex">
+    <header class="main-header p-[8px] bg-[#0A2540] text-white">
+        <div class="img-logo object-fit"></div>
+        <nav class="flex gap-3">
             <a class="border p-[4px] rounded" href="#home-page">Home</a>
             <a class="border p-[4px] rounded" href="#our-profile-page">Our Profile</a>
             <a class="border p-[4px] rounded" href="#portofolio-page">Portofolio</a>
@@ -22,7 +22,7 @@
     <hr />
 
     <main>
-        <section id="home-page" class="min-h-[500px] text-center content-center">
+        <section id="home-page" class="min-h-[500px] text-center content-center bg-[#E6EEF5] text-[#0A2540]">
             <h2 class="text-xl font-bold" id="welcome-speech">Welcome to our website</h2>
             <div class="section-container">
             <img src="./img/sb-homepage.jpg" alt="homepage-image">
@@ -39,8 +39,8 @@
 
         <hr>
 
-        <section id="our-profile-page" class="min-h-[500px] text-center content-center">
-            <h2 class="text-xl font-bold">About company</h2>
+        <section id="our-profile-page" class="min-h-[500px] text-center content-center pt-8 bg-[#F8FAFC] text-[#0A2540]">
+            <h2 class="text-xl font-bold">About Company</h2>
             <p class="mt-2" id="about-comp-p">Smart Brain Corporation adalah perusahaan multinasional yang bergerak di bidang bioteknologi, keamanan, dan rekayasa taktis. Berdiri pada tahun 2000 di Tokyo, Smart Brain memiliki misi untuk memperkenalkan teknologi evolusi yang dapat meningkatkan kualitas hidup manusia.</p>
             <div class="section-container">
             <img src="./img/sb-profile.jpg" alt="our-profile-image">
@@ -62,7 +62,7 @@
                     </div>
                 </div> 
             </div>
-            <div class="flex items-start justify-center mt-[50px]">
+            <div class="flex items-start justify-center mt-[50px] mb-[50px]">
                 <div class="text-container w-[600px]">
                 <p class="text-center mb-2 font-bold">Bidang Operasional</p>
                 <ul>
@@ -82,38 +82,43 @@
         </section>
 
         <hr>
-        <section id="portofolio-page" class="min-h-[500px] text-center content-center">
+        <section id="portofolio-page" class="min-h-[500px] text-center content-center p-8 bg-[#0A2540] text-[#0FF4C6]">
             <h2 class="text-xl font-bold">Our Portofolio</h2>
             <p>SB System Tactical Gear</p>
             <p>Perangkat transformasi generasi baru yang dirancang untuk meningkatkan kekuatan dan kecepatan operasional.</p>
-            <img src="./img/sb-portofolio.jpg" alt="portofolio-image">
-                <div class="flex">
-                    <div>
-                        <p>Faiz Gear (SB-555 System)</p>
-                        <ul>
+            <div class="flex justify-center">
+            <img class="flex justify-center items-center mt-4 mb-4" src="./img/sb-portofolio.jpg" alt="portofolio-image">
+            </div>
+                <div class="flex justify-center gap-[30px]">
+                    <div class="image-card">
+                        <p class="font-bold">Faiz Gear (SB-555 System)</p>
+                        <img class="p-2" id="img-card-placeholder" src="./img/sb-faizgear.png" alt="faiz-gear-images">
+                        <ul class="text-left pl-6">
                             <li>Transforming Driver</li>
                             <li>Photon Blood Stabilizer</li>
                             <li>Faiz Phone</li>
                             <li>Faiz Pointer, Shot, Edge</li>
-                        </ul>
-                        <p>Meningkatkan performa operasional pengguna hingga 300% dengan kestabilan tinggi.</p>
+                        </ul><br>
+                        <p class="text-justify p-4">Meningkatkan performa operasional pengguna hingga 300% dengan kestabilan tinggi.</p>
                     </div>
-                    <div>
-                        <p>Kaixa Gear</p>
-                        <ul>
+                    <div class="image-card">
+                        <p class="font-bold">Kaixa Gear</p>
+                        <img class="p-2" id="img-card-placeholder" src="./img/sb-kaixagear.png" alt="kaixa-gear-images">
+                        <ul class="text-left pl-6">
                             <li>Kaixa Driver</li>
                             <li>Kaixa Phone</li>
                             <li>Kaixa Blaygun & Pointer</li>
                         </ul>
-                        <p>Sistem performa tinggi dengan mode ofensif jarak dekat dan jarak jauh.</p>
+                        <p class="text-justify p-4">Sistem performa tinggi dengan mode ofensif jarak dekat dan jarak jauh.</p>
                     </div>
-                    <div>
-                        <p>Delta Gear</p>
-                        <ul>
+                    <div class="image-card">
+                        <p class="font-bold">Delta Gear</p>
+                        <img id="img-card-placeholder" class="p-2 h-34.5 w-239 object-cover" src="./img/sb-deltagear.png" alt="delta-gear-images">
+                        <ul class="text-left pl-6">
                             <li>Delta Driver</li>
                             <li>Delta Mover</li>
                         </ul>
-                        <p>Sistem fleksibel yang dapat digunakan oleh berbagai tingkat kompatibilitas.</p>
+                        <p class="text-justify p-4">Sistem fleksibel yang dapat digunakan oleh berbagai tingkat kompatibilitas.</p>
                     </div>
                 </div>
             </section>
@@ -122,34 +127,43 @@
 
         <section id="message-us-page" class="min-h-[500px] p-8">
             <header>
-                <h2 class="text-xl font-bold">Message Us</h2>
-                <p class="mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, culpa.</p>
+                <h2 class="text-xl font-bold ml-[50px]">Message Us</h2>
+                <p class="mt-2 ml-[50px]">Kami terbuka untuk kolaborasi, pertanyaan, atau kebutuhan teknologi khusus.</p>
             </header>
             
-            <form>
-                <div class="mb-4">
-                    <label class="block mb-2" for="name">Name:</label>
-                    <input class="w-full p-2 border rounded" type="text" id="name" name="name" required />
-                </div>
+            <div class="flex justify-around mt-4">
+                <div class="w-[500px]">
+                    <form>
+                        <div class="mb-4">
+                            <label class="block mb-2" for="name">Name:</label>
+                            <input class="w-full p-2 border rounded" type="text" id="name" name="name" required />
+                        </div>
 
-                <div class="mb-4">
-                    <label class="block mb-2" for="email">Email:</label>
-                    <input class="w-full p-2 border rounded" type="text" id="email" name="email" required />
-                </div>
+                        <div class="mb-4">
+                            <label class="block mb-2" for="email">Email:</label>
+                            <input class="w-full p-2 border rounded" type="text" id="email" name="email" required />
+                        </div>
 
-                <div class="mb-4">
-                    <label class="block mb-2" for="message">Message:</label>
-                    <textarea class="w-full p-2 border rounded" id="message" name="message" rows="5" required></textarea>
-                </div>
+                        <div class="mb-4">
+                            <label class="block mb-2" for="message">Message:</label>
+                            <textarea class="w-full p-2 border rounded" id="message" name="message" rows="5" required></textarea>
+                        </div>
 
-                <button class="px-4 py-2 bg-blue-500 text-white rounded" type="button">Send Message</button>
-            </form>
+                        <button class="px-4 py-2 bg-blue-500 rounded bg-[#0A2540] hover:bg-[#1A1F2B] text-[#0FF4C6]" type="button" onclick="validateForm()">Send Message</button>
+                    </form>
+                </div>
+                <div class="w-[500px] h-[200px] border text-center">
+                    <p id="d-name"></p>
+                    <p id="d-email"></p>
+                    <p id="d-message"></p>
+                </div>
+            </div>
         </section>
     </main>
 
     <hr />
 
-    <footer>
+    <footer class="text-center p-4 bg-[#1A1F2B] text-gray-300">
         <span>@2025 Rizky</span>
     </footer>
 

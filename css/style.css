@@ -3,7 +3,7 @@
     width: 75px;
     border-radius: 50%;
     background-color: lightgray;
-    background-image: url(../img/sb-homepage.jpg);
+    background-image: url(../img/sb-complogo.png);
     /* background-image: url(https://picsum.photos/200); */
     background-size: cover;
 }
@@ -16,7 +16,7 @@
 
 section img{
     width: 500px;
-    border: 3px solid red;
+    /* border: 3px solid red; */
     border-radius: 8px;
     margin-left: 50px;
 }
@@ -56,6 +56,15 @@ section img{
 
 #img-structure{
     width: 400px;
+}
+
+.image-card{
+    /* border: 3px solid red; */
+    width: 250px;
+}
+
+#img-card-placeholder{
+    margin-left: 0;
 }
 /* #home-page{
     background-image: url(../img/sb-homepage.jpg);
